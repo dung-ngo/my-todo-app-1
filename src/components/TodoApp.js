@@ -41,7 +41,7 @@ function TodoApp() {
             .then(response => {
                 console.log(response.data)
                 setState({
-                    todos: [...state.todos, response.data]
+                    todos: [...state.todos, todoData]
                 })
             })
     }
